@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>1nuKun3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>1nuKun3</h1>
+  </header>
+  <main>
+    <div class="rotating-image">
+      <img src="1nuKun3.png" alt="プロフィール写真">
+    </div>
+  </main>
+  <audio id="bgm" src="BunnyGirl.mp3" loop></audio>
+  <footer>
+    <div class="spotify-player">
+      <img src="BunnyGirl.jpg" alt="曲の画像">
+      <div class="track-info">
+        <div class="track-title">Bunny Girl</div>
+        <div class="track-artist">AKASAKI</div>
+        <div class="player-progress-info">
+          <span id="current-time">0:00</span>
+          <div class="progress-bar-container">
+            <div id="progress-bar" class="progress-bar"></div>
+          </div>
+          <span id="duration">0:00</span>
+        </div>
+      </div>
+      <button id="footer-play-btn" class="play-btn" type="button">
+        ▶
+      </button>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
